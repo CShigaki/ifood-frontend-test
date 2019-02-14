@@ -2,7 +2,7 @@
 * O Parcel foi usado pela sua facilidade em relação ao Webpack.
 * Apesar de não ter muita familiaridade com o Material-UI, ele foi escolhido pela diversidade de componentes e pela facilidade.
 * Sass pra facilitar a criação dos estilos.
-* Com o mais recente update do React decidi abdicar do uso das classes e tentar usar as hooks como forma de aprendizado.
+* Com o mais recente update do React decidi abandonar as classes e tentar usar as hooks como forma de aprendizado.
 
 # Pontos de melhora
 * Por facilidade e porque não vi motivo pra essa aplicação, não implementei suporte à refresh token. O token tem duração de de 1 hora e redireciona o usuário para a tela inicial quando expirado.
