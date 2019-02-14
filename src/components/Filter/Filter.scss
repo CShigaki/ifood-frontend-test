@@ -1,0 +1,15 @@
+.filters {
+  margin-bottom: 50px;
+  margin-top: 50px;
+  min-width: 200px;
+
+  .filter-field {
+    min-width: 200px;
+    margin-bottom: 30px;
+    margin-top: 0;
+  }
+
+  .filter-field-label {
+    display: block;
+  }
+}

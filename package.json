@@ -1,0 +1,33 @@
+{
+  "name": "ifood-frontend-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:CShigaki/ifood-frontend-test.git",
+  "author": "Celso Takeo Shigaki <celsomaker@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@material-ui/core": "^3.9.2",
+    "@material-ui/icons": "^3.0.2",
+    "axios": "^0.18.0",
+    "json5": "^2.1.0",
+    "moment": "^2.24.0",
+    "prop-types": "^15.7.1",
+    "query-string": "^6.2.0",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1",
+    "react-router": "^4.3.1"
+  },
+  "scripts": {
+    "start": "parcel src/index.html -d dist-dev",
+    "build": "parcel build src/index.html"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-plugin-module-resolver": "^3.2.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "parcel-bundler": "^1.11.0",
+    "sass": "^1.17.0"
+  }
+}
